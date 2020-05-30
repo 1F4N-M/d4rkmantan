@@ -91,7 +91,6 @@ def loginSC():
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="Subscribe" and password =="Dulu bos":
 		print"\033[1;96m[✓] \033[1;93mLogin Berhasil"
-                os.system('xdg-open https://www.youtube.com/channel/UCxLFXgxj_U1SMlpK0cJ5KZw ')
 		time.sleep(1)
 		login()
 	else:
